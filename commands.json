@@ -8,7 +8,7 @@
     "sections": [
         {
             "name": "General Commands",
-            "color": "#00ff00",
+            "color": "#8a2be2",
             "commands": [
                 {
                     "name": "!socials",
@@ -338,14 +338,14 @@
         },
         {
             "name": "Aurora Commands",
-            "color": "#ff00ff",
+            "color": "#00ffff",
             "logo": "Assets/AuroraLOGO.png",
             "pfp": "Assets/AuroraPFP.jpg",
             "commands": []
         },
         {
             "name": "Holiday Commands",
-            "color": "#ffff00",
+            "color": "#00ff00",
             "dropdown": true,
             "commands": [
                 {
@@ -364,7 +364,7 @@
         },
         {
             "name": "Disabled Commands",
-            "color": "#888888",
+            "color": "#ffff00",
             "dropdown": true,
             "commands": [
                 {

@@ -336,7 +336,7 @@ body {
 .section:nth-child(2) {
     margin-bottom: 40px;
     padding-bottom: 30px;
-    border-bottom: 2px solid rgba(255, 0, 255, 0.3);
+    border-bottom: 2px solid rgba(0, 255, 255, 0.3);
     position: relative;
 }
 
@@ -348,8 +348,8 @@ body {
     transform: translateX(-50%);
     width: 200px;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #ff00ff, transparent);
-    box-shadow: 0 0 10px #ff00ff;
+    background: linear-gradient(90deg, transparent, #00ffff, transparent);
+    box-shadow: 0 0 10px #00ffff;
 }
 
 .section img {
