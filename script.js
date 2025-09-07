@@ -44,6 +44,14 @@ fetch('commands.json')
             }
 
             const ul = document.createElement('ul');
+            
+            // Sort commands alphabetically by main command name
+            section.commands.sort((a, b) => {
+                const nameA = (a.main || a.name || '').toLowerCase();
+                const nameB = (b.main || b.name || '').toLowerCase();
+                return nameA.localeCompare(nameB);
+            });
+            
             section.commands.forEach(cmd => {
                 const li = document.createElement('li');
                 li.className = 'command';

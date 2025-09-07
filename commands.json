@@ -27,7 +27,7 @@
                 },
                 {
                     "name": "!Duration",
-                    "description": "!Duration",
+                    "description": "Shows the current stream duration and uptime information.",
                     "enabled": true,
                     "main": "!Duration",
                     "triggers": [
@@ -40,7 +40,7 @@
                 },
                 {
                     "name": "!dropkick",
-                    "description": "!dropkick",
+                    "description": "Performs a fun dropkick action in the stream.",
                     "enabled": true,
                     "main": "!dropkick",
                     "triggers": [
@@ -53,7 +53,7 @@
                 },
                 {
                     "name": "!bite",
-                    "description": "!bite",
+                    "description": "Performs a cute bite interaction with viewers.",
                     "enabled": true,
                     "main": "!bite",
                     "triggers": [
@@ -66,7 +66,7 @@
                 },
                 {
                     "name": "!smp",
-                    "description": "!smp",
+                    "description": "Provides information about the Minecraft SMP server and community.",
                     "enabled": true,
                     "main": "!smp",
                     "triggers": [
@@ -79,7 +79,7 @@
                 },
                 {
                     "name": "!clip",
-                    "description": "!clip",
+                    "description": "Creates and saves a clip of the current stream moment.",
                     "enabled": true,
                     "main": "!clip",
                     "triggers": [
@@ -105,7 +105,7 @@
                 },
                 {
                     "name": "!quoInf",
-                    "description": "!quoteInfo",
+                    "description": "Displays information about the quote system and how to use it.",
                     "enabled": true,
                     "main": "!quoInf",
                     "triggers": [
@@ -118,7 +118,7 @@
                 },
                 {
                     "name": "!so",
-                    "description": "!so",
+                    "description": "Gives a shoutout to another streamer or community member.",
                     "enabled": true,
                     "main": "!so",
                     "triggers": [
@@ -131,7 +131,7 @@
                 },
                 {
                     "name": "!aso",
-                    "description": "aso",
+                    "description": "Gives an affiliate shoutout to partnered streamers.",
                     "enabled": true,
                     "main": "!aso",
                     "triggers": [
@@ -144,7 +144,7 @@
                 },
                 {
                     "name": "!ShockType",
-                    "description": "!Shock_Type",
+                    "description": "Determines your personality type based on shock responses.",
                     "enabled": true,
                     "main": "!ShockType",
                     "triggers": [
@@ -157,7 +157,7 @@
                 },
                 {
                     "name": "!discord",
-                    "description": "!discord",
+                    "description": "Provides the Discord server invite link for the community.",
                     "enabled": true,
                     "main": "!discord",
                     "triggers": [
@@ -170,7 +170,7 @@
                 },
                 {
                     "name": "!farm",
-                    "description": "Rustys",
+                    "description": "Shows information about Rusty's farm and location.",
                     "enabled": true,
                     "main": "!farm",
                     "triggers": [
@@ -183,7 +183,7 @@
                 },
                 {
                     "name": "!sets",
-                    "description": "!sets",
+                    "description": "Displays available equipment sets and collections.",
                     "enabled": true,
                     "main": "!sets",
                     "triggers": [
@@ -196,7 +196,7 @@
                 },
                 {
                     "name": "!setpro",
-                    "description": "!setpro",
+                    "description": "Allows users to set their profile preferences and settings.",
                     "enabled": true,
                     "main": "!setpro",
                     "triggers": [
@@ -209,7 +209,7 @@
                 },
                 {
                     "name": "!int",
-                    "description": "!int",
+                    "description": "Initiates an interactive conversation or engagement with the streamer.",
                     "enabled": true,
                     "main": "!int",
                     "triggers": [
@@ -222,7 +222,7 @@
                 },
                 {
                     "name": "!love",
-                    "description": "!love",
+                    "description": "Sends a love or affection message to the streamer.",
                     "enabled": true,
                     "main": "!love",
                     "triggers": [
@@ -235,7 +235,7 @@
                 },
                 {
                     "name": "!donate",
-                    "description": "!donate",
+                    "description": "Provides donation and support information for the streamer.",
                     "enabled": true,
                     "main": "!donate",
                     "triggers": [
@@ -248,7 +248,7 @@
                 },
                 {
                     "name": "!ai",
-                    "description": "!ai",
+                    "description": "Interacts with Aurora AI for chat, questions, and entertainment.",
                     "enabled": true,
                     "main": "!ai",
                     "triggers": [
@@ -261,7 +261,7 @@
                 },
                 {
                     "name": "!game",
-                    "description": "!game",
+                    "description": "Displays information about the current game being played.",
                     "enabled": true,
                     "main": "!game",
                     "triggers": [
@@ -274,7 +274,7 @@
                 },
                 {
                     "name": "!collab",
-                    "description": "!Collab",
+                    "description": "Provides information about upcoming collaborations and partnerships.",
                     "enabled": true,
                     "main": "!collab",
                     "triggers": [
@@ -287,7 +287,7 @@
                 },
                 {
                     "name": "!raid",
-                    "description": "!raid",
+                    "description": "Initiates a raid to another streamer's channel.",
                     "enabled": true,
                     "main": "!raid",
                     "triggers": [
@@ -300,7 +300,7 @@
                 },
                 {
                     "name": "!job",
-                    "description": "!job",
+                    "description": "Displays job or role information for the streamer.",
                     "enabled": true,
                     "main": "!job",
                     "triggers": [
@@ -313,7 +313,7 @@
                 },
                 {
                     "name": "!Intensity",
-                    "description": "!Intensity",
+                    "description": "Adjusts or displays the current intensity level settings.",
                     "enabled": true,
                     "main": "!Intensity",
                     "triggers": [
@@ -326,7 +326,7 @@
                 },
                 {
                     "name": "!unraid",
-                    "description": "!unraid",
+                    "description": "Cancels or defends against an incoming raid.",
                     "enabled": true,
                     "main": "!unraid",
                     "triggers": [
@@ -339,7 +339,7 @@
                 },
                 {
                     "name": "!code",
-                    "description": "!code",
+                    "description": "Provides coding and programming related information or resources.",
                     "enabled": true,
                     "main": "!code",
                     "triggers": [
@@ -352,7 +352,7 @@
                 },
                 {
                     "name": "!urban",
-                    "description": "!urban",
+                    "description": "Looks up definitions from the Urban Dictionary.",
                     "enabled": true,
                     "main": "!urban",
                     "triggers": [
@@ -399,7 +399,7 @@
             "commands": [
                 {
                     "name": "!whisper",
-                    "description": "!whisper",
+                    "description": "Sends a private whisper message to the streamer.",
                     "enabled": false,
                     "main": "!whisper",
                     "triggers": [
@@ -412,7 +412,7 @@
                 },
                 {
                     "name": "!use",
-                    "description": "Use Item",
+                    "description": "Uses or consumes an item from your inventory.",
                     "enabled": false,
                     "main": "!use",
                     "triggers": [
@@ -425,7 +425,7 @@
                 },
                 {
                     "name": "!rules",
-                    "description": "!rules",
+                    "description": "Displays the stream rules and community guidelines.",
                     "enabled": false,
                     "main": "!rules",
                     "triggers": [
@@ -438,7 +438,7 @@
                 },
                 {
                     "name": "!hug",
-                    "description": "!hug",
+                    "description": "Sends a virtual hug to another user or the streamer.",
                     "enabled": false,
                     "main": "!hug",
                     "triggers": [
@@ -451,7 +451,7 @@
                 },
                 {
                     "name": "!d100",
-                    "description": "d11",
+                    "description": "Rolls a 100-sided die for random number generation.",
                     "enabled": false,
                     "main": "!d100",
                     "triggers": [
@@ -464,7 +464,7 @@
                 },
                 {
                     "name": "!remove item",
-                    "description": "Remove Item",
+                    "description": "Removes an item from a user's inventory.",
                     "enabled": false,
                     "main": "!remove item",
                     "triggers": [
@@ -477,7 +477,7 @@
                 },
                 {
                     "name": "!add item",
-                    "description": "Add Item",
+                    "description": "Adds an item to a user's inventory.",
                     "enabled": false,
                     "main": "!add item",
                     "triggers": [
@@ -490,7 +490,7 @@
                 },
                 {
                     "name": "!items",
-                    "description": "Get Items",
+                    "description": "Displays the items currently in your inventory.",
                     "enabled": false,
                     "main": "!items",
                     "triggers": [
@@ -503,7 +503,7 @@
                 },
                 {
                     "name": "!d8",
-                    "description": "d8",
+                    "description": "Rolls an 8-sided die for random number generation.",
                     "enabled": false,
                     "main": "!d8",
                     "triggers": [
@@ -516,7 +516,7 @@
                 },
                 {
                     "name": "!so",
-                    "description": "!so",
+                    "description": "Gives a shoutout to another streamer or community member.",
                     "enabled": false,
                     "main": "!so",
                     "triggers": [
@@ -529,7 +529,7 @@
                 },
                 {
                     "name": "!d12",
-                    "description": "d12",
+                    "description": "Rolls a 12-sided die for random number generation.",
                     "enabled": false,
                     "main": "!d12",
                     "triggers": [
@@ -542,7 +542,7 @@
                 },
                 {
                     "name": "!d4",
-                    "description": "d4",
+                    "description": "Rolls a 4-sided die for random number generation.",
                     "enabled": false,
                     "main": "!d4",
                     "triggers": [
@@ -555,7 +555,7 @@
                 },
                 {
                     "name": "!d10",
-                    "description": "d10",
+                    "description": "Rolls a 10-sided die for random number generation.",
                     "enabled": false,
                     "main": "!d10",
                     "triggers": [
@@ -568,7 +568,7 @@
                 },
                 {
                     "name": "!d6",
-                    "description": "!d6",
+                    "description": "Rolls a 6-sided die for random number generation.",
                     "enabled": false,
                     "main": "!d6",
                     "triggers": [
@@ -588,7 +588,7 @@
             "commands": [
                 {
                     "name": "!d20",
-                    "description": "d20",
+                    "description": "Rolls a 20-sided die for random number generation.",
                     "enabled": true,
                     "main": "!d20",
                     "triggers": [
@@ -608,7 +608,7 @@
             "commands": [
                 {
                     "name": "!hug",
-                    "description": "[Extended Hugs] Hug",
+                    "description": "Sends an extended hug with special effects and animations.",
                     "enabled": true,
                     "main": "!hug",
                     "triggers": [
@@ -621,7 +621,7 @@
                 },
                 {
                     "name": "!hugLeaderboard",
-                    "description": "[Extended Hugs] Leaderboard",
+                    "description": "Displays the leaderboard for the extended hugs system.",
                     "enabled": true,
                     "main": "!hugLeaderboard",
                     "triggers": [
