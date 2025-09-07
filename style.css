@@ -407,7 +407,7 @@ body {
     transform: scale(0.95) rotate(5deg);
 }
 
-.social-icon {
+.social-btn i {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -417,7 +417,7 @@ body {
     transition: color 0.3s ease;
 }
 
-.social-btn:hover .social-icon {
+.social-btn:hover i {
     color: #00ffff;
     text-shadow: 0 0 10px #00ffff;
 }
@@ -427,7 +427,7 @@ body {
     border-color: #9146ff;
     box-shadow: 0 0 10px #9146ff, 0 0 20px #9146ff;
 }
-.social-btn:nth-child(1):hover .social-icon {
+.social-btn:nth-child(1):hover i {
     color: #9146ff;
     text-shadow: 0 0 10px #9146ff;
 }
@@ -436,7 +436,7 @@ body {
     border-color: #1da1f2;
     box-shadow: 0 0 10px #1da1f2, 0 0 20px #1da1f2;
 }
-.social-btn:nth-child(2):hover .social-icon {
+.social-btn:nth-child(2):hover i {
     color: #1da1f2;
     text-shadow: 0 0 10px #1da1f2;
 }
@@ -445,7 +445,7 @@ body {
     border-color: #5865f2;
     box-shadow: 0 0 10px #5865f2, 0 0 20px #5865f2;
 }
-.social-btn:nth-child(3):hover .social-icon {
+.social-btn:nth-child(3):hover i {
     color: #5865f2;
     text-shadow: 0 0 10px #5865f2;
 }
@@ -454,7 +454,7 @@ body {
     border-color: #ff0000;
     box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
 }
-.social-btn:nth-child(4):hover .social-icon {
+.social-btn:nth-child(4):hover i {
     color: #ff0000;
     text-shadow: 0 0 10px #ff0000;
 }
@@ -463,7 +463,7 @@ body {
     border-color: #ff5f5f;
     box-shadow: 0 0 10px #ff5f5f, 0 0 20px #ff5f5f;
 }
-.social-btn:nth-child(5):hover .social-icon {
+.social-btn:nth-child(5):hover i {
     color: #ff5f5f;
     text-shadow: 0 0 10px #ff5f5f;
 }
@@ -472,7 +472,7 @@ body {
     border-color: #ff7700;
     box-shadow: 0 0 10px #ff7700, 0 0 20px #ff7700;
 }
-.social-btn:nth-child(6):hover .social-icon {
+.social-btn:nth-child(6):hover i {
     color: #ff7700;
     text-shadow: 0 0 10px #ff7700;
 }
@@ -481,7 +481,7 @@ body {
     border-color: #ffd700;
     box-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700;
 }
-.social-btn:nth-child(7):hover .social-icon {
+.social-btn:nth-child(7):hover i {
     color: #ffd700;
     text-shadow: 0 0 10px #ffd700;
 }
@@ -490,7 +490,7 @@ body {
     border-color: #000000;
     box-shadow: 0 0 10px #ff0050, 0 0 20px #ff0050;
 }
-.social-btn:nth-child(8):hover .social-icon {
+.social-btn:nth-child(8):hover i {
     color: #ff0050;
     text-shadow: 0 0 10px #ff0050;
 }
@@ -499,7 +499,7 @@ body {
     border-color: #8a2be2;
     box-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2;
 }
-.social-btn:nth-child(9):hover .social-icon {
+.social-btn:nth-child(9):hover i {
     color: #8a2be2;
     text-shadow: 0 0 10px #8a2be2;
 }
