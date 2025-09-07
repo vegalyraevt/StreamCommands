@@ -33,7 +33,7 @@
                     "triggers": [
                         "!Duration"
                     ],
-                    "userType": "all",
+                    "userType": "mod",
                     "globalCooldown": 0,
                     "userCooldown": 0,
                     "tags": ["stream", "time", "duration", "length", "uptime", "info", "stats"]
@@ -124,7 +124,7 @@
                     "triggers": [
                         "!so"
                     ],
-                    "userType": "all",
+                    "userType": "mod",
                     "globalCooldown": 0,
                     "userCooldown": 0,
                     "tags": ["shoutout", "so", "promotion", "support", "streamer", "community"]
@@ -137,7 +137,7 @@
                     "triggers": [
                         "!aso"
                     ],
-                    "userType": "all",
+                    "userType": "mod",
                     "globalCooldown": 0,
                     "userCooldown": 0,
                     "tags": ["shoutout", "aso", "promotion", "support", "streamer", "community", "affiliate"]
@@ -150,7 +150,7 @@
                     "triggers": [
                         "!ShockType"
                     ],
-                    "userType": "all",
+                    "userType": "mod",
                     "globalCooldown": 0,
                     "userCooldown": 0,
                     "tags": ["shock", "type", "personality", "trait", "character", "fun", "quiz"]
@@ -189,7 +189,7 @@
                     "triggers": [
                         "!sets"
                     ],
-                    "userType": "all",
+                    "userType": "mod",
                     "globalCooldown": 0,
                     "userCooldown": 0,
                     "tags": ["sets", "collection", "items", "equipment", "gear", "inventory"]
@@ -215,7 +215,7 @@
                     "triggers": [
                         "!int"
                     ],
-                    "userType": "all",
+                    "userType": "mod",
                     "globalCooldown": 0,
                     "userCooldown": 0,
                     "tags": ["int", "interaction", "engage", "chat", "talk", "conversation"]
@@ -293,7 +293,7 @@
                     "triggers": [
                         "!raid"
                     ],
-                    "userType": "all",
+                    "userType": "mod",
                     "globalCooldown": 0,
                     "userCooldown": 0,
                     "tags": ["raid", "attack", "battle", "fight", "combat", "war", "military"]
@@ -306,7 +306,7 @@
                     "triggers": [
                         "!job"
                     ],
-                    "userType": "all",
+                    "userType": "mod",
                     "globalCooldown": 0,
                     "userCooldown": 0,
                     "tags": ["job", "work", "career", "profession", "occupation", "employment"]
@@ -319,7 +319,7 @@
                     "triggers": [
                         "!Intensity"
                     ],
-                    "userType": "all",
+                    "userType": "mod",
                     "globalCooldown": 0,
                     "userCooldown": 0,
                     "tags": ["intensity", "level", "energy", "power", "strength", "force", "scale"]
@@ -332,7 +332,7 @@
                     "triggers": [
                         "!unraid"
                     ],
-                    "userType": "all",
+                    "userType": "mod",
                     "globalCooldown": 0,
                     "userCooldown": 0,
                     "tags": ["unraid", "defense", "protect", "guard", "shield", "counter", "block"]
@@ -358,7 +358,7 @@
                     "triggers": [
                         "!urban"
                     ],
-                    "userType": "all",
+                    "userType": "mod",
                     "globalCooldown": 0,
                     "userCooldown": 0,
                     "tags": ["urban", "dictionary", "slang", "definition", "meaning", "language", "words"]
@@ -470,7 +470,7 @@
                     "triggers": [
                         "!remove item"
                     ],
-                    "userType": "all",
+                    "userType": "mod",
                     "globalCooldown": 0,
                     "userCooldown": 0,
                     "tags": ["remove", "item", "inventory", "delete", "take", "away"]
@@ -483,7 +483,7 @@
                     "triggers": [
                         "!add item"
                     ],
-                    "userType": "all",
+                    "userType": "mod",
                     "globalCooldown": 0,
                     "userCooldown": 0,
                     "tags": ["add", "item", "inventory", "give", "insert", "put"]
@@ -522,7 +522,7 @@
                     "triggers": [
                         "!so"
                     ],
-                    "userType": "all",
+                    "userType": "mod",
                     "globalCooldown": 0,
                     "userCooldown": 0,
                     "tags": ["so", "shoutout", "shout", "out", "promote", "streamer", "support"]
