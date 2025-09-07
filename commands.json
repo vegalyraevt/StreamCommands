@@ -16,7 +16,9 @@
                     "enabled": true,
                     "main": "!socials",
                     "triggers": [
-                        "!socials"
+                        "!socials",
+                        "!soc",
+                        "!social"
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
