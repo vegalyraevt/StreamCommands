@@ -12,7 +12,7 @@
             "commands": [
                 {
                     "name": "!socials",
-                    "description": "!socials",
+                    "description": "This is a description of the socials command.",
                     "enabled": true,
                     "main": "!socials",
                     "triggers": [
