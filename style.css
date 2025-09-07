@@ -549,20 +549,16 @@ body {
 
 .header img {
     height: 100px;
-    margin: 0 10px;
+    margin: 20px 10px 0 10px;
     border-radius: 50%;
 }
 
 .header h1 {
-    color: #ffffff;
+    color: #8a2be2;
     font-family: 'AstropolisAcademy', monospace;
     font-size: 2.5em;
-    margin: 0;
+    margin: 0 0 20px 0;
     text-align: center;
-    background: linear-gradient(45deg, #00ff00, #00ffff, #ff00ff, #ffff00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 
 .blurb {
@@ -594,6 +590,13 @@ body {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
+.command .command-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
 .command .main {
     font-weight: bold;
     font-size: 1.2em;
@@ -604,36 +607,37 @@ body {
 
 .command .badge {
     display: inline-block;
-    padding: 2px 5px;
+    padding: 1px 6px;
     border-radius: 3px;
-    font-size: 0.8em;
+    font-size: 0.6em;
     text-transform: uppercase;
+    font-weight: bold;
+    background: transparent;
+    border: 1px solid;
+    transition: all 0.2s ease;
+    line-height: 1;
+    white-space: nowrap;
 }
 
-.badge.all { 
-    background: rgba(0,255,0,0.2); 
-    color: #00ff00; 
-    border: 1px solid #00ff00;
+.badge.all {
+    color: #00ff00;
+    border-color: #00ff00;
 }
-.badge.mod { 
-    background: rgba(255,0,0,0.2); 
-    color: #ff0000; 
-    border: 1px solid #ff0000;
+.badge.mod {
+    color: #ff0000;
+    border-color: #ff0000;
 }
-.badge.sub { 
-    background: rgba(0,0,255,0.2); 
-    color: #0080ff; 
-    border: 1px solid #0080ff;
+.badge.sub {
+    color: #0080ff;
+    border-color: #0080ff;
 }
-.badge.group { 
-    background: rgba(255,255,0,0.2); 
-    color: #ffff00; 
-    border: 1px solid #ffff00;
+.badge.group {
+    color: #ffff00;
+    border-color: #ffff00;
 }
-.badge.specific { 
-    background: rgba(255,0,255,0.2); 
-    color: #ff00ff; 
-    border: 1px solid #ff00ff;
+.badge.specific {
+    color: #ff00ff;
+    border-color: #ff00ff;
 }
 
 .command .cooldowns {
@@ -868,8 +872,10 @@ body {
 
 /* Search functionality */
 .search-container {
-    margin: 20px 0;
+    margin: 20px auto;
     position: relative;
+    max-width: 600px;
+    width: 80%;
 }
 
 #command-search {
@@ -938,6 +944,16 @@ body {
 
 .search-result-trigger {
     color: #00ffff;
+    font-style: italic;
+}
+
+.search-result-tag {
+    color: #ffaa00;
+    font-style: italic;
+}
+
+.search-result-usertype {
+    color: #aa00ff;
     font-style: italic;
 }
 

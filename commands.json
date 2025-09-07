@@ -22,7 +22,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["social", "links", "contact", "media", "follow", "twitch", "discord", "youtube"]
                 },
                 {
                     "name": "!Duration",
@@ -34,7 +35,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["stream", "time", "duration", "length", "uptime", "info", "stats"]
                 },
                 {
                     "name": "!dropkick",
@@ -46,7 +48,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["fun", "action", "kick", "drop", "entertainment", "game"]
                 },
                 {
                     "name": "!bite",
@@ -58,7 +61,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["fun", "interaction", "bite", "cute", "entertainment", "action"]
                 },
                 {
                     "name": "!smp",
@@ -70,7 +74,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["minecraft", "smp", "server", "game", "multiplayer", "community"]
                 },
                 {
                     "name": "!clip",
@@ -82,7 +87,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["clip", "highlight", "save", "moment", "stream", "video", "recording"]
                 },
                 {
                     "name": "!sto",
@@ -94,7 +100,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["shop", "store", "merch", "buy", "purchase", "items", "products"]
                 },
                 {
                     "name": "!quoInf",
@@ -106,7 +113,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["quote", "info", "quotes", "information", "memorable", "moments"]
                 },
                 {
                     "name": "!so",
@@ -118,7 +126,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["shoutout", "so", "promotion", "support", "streamer", "community"]
                 },
                 {
                     "name": "!aso",
@@ -130,7 +139,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["shoutout", "aso", "promotion", "support", "streamer", "community", "affiliate"]
                 },
                 {
                     "name": "!ShockType",
@@ -142,7 +152,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["shock", "type", "personality", "trait", "character", "fun", "quiz"]
                 },
                 {
                     "name": "!discord",
@@ -154,7 +165,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["discord", "server", "chat", "community", "social", "join", "link"]
                 },
                 {
                     "name": "!farm",
@@ -166,7 +178,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["farm", "rusty", "rustys", "location", "place", "home", "base"]
                 },
                 {
                     "name": "!sets",
@@ -178,7 +191,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["sets", "collection", "items", "equipment", "gear", "inventory"]
                 },
                 {
                     "name": "!setpro",
@@ -190,7 +204,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["setpro", "profile", "settings", "preferences", "config", "account"]
                 },
                 {
                     "name": "!int",
@@ -202,7 +217,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["int", "interaction", "engage", "chat", "talk", "conversation"]
                 },
                 {
                     "name": "!love",
@@ -214,7 +230,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["love", "affection", "heart", "cute", "romantic", "emotion"]
                 },
                 {
                     "name": "!donate",
@@ -226,7 +243,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["donate", "support", "tip", "money", "contribution", "help", "funding"]
                 },
                 {
                     "name": "!ai",
@@ -238,7 +256,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["ai", "artificial", "intelligence", "bot", "automation", "tech", "smart", "machine", "gpt", "LLM", "aurora", "auroraAI", "aurorachan"]
                 },
                 {
                     "name": "!game",
@@ -250,7 +269,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["game", "gaming", "play", "current", "now", "playing", "activity"]
                 },
                 {
                     "name": "!collab",
@@ -262,7 +282,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["collab", "collaboration", "partner", "team", "together", "co-op", "joint"]
                 },
                 {
                     "name": "!raid",
@@ -274,7 +295,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["raid", "attack", "battle", "fight", "combat", "war", "military"]
                 },
                 {
                     "name": "!job",
@@ -286,7 +308,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["job", "work", "career", "profession", "occupation", "employment"]
                 },
                 {
                     "name": "!Intensity",
@@ -298,7 +321,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["intensity", "level", "energy", "power", "strength", "force", "scale"]
                 },
                 {
                     "name": "!unraid",
@@ -310,7 +334,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["unraid", "defense", "protect", "guard", "shield", "counter", "block"]
                 },
                 {
                     "name": "!code",
@@ -322,7 +347,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["code", "programming", "script", "development", "tech", "software", "coding"]
                 },
                 {
                     "name": "!urban",
@@ -334,7 +360,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["urban", "dictionary", "slang", "definition", "meaning", "language", "words"]
                 }
             ]
         },
@@ -360,7 +387,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["red", "envelope", "hongbao", "chinese", "new", "year", "lunar", "festival", "money", "gift", "tradition", "culture"]
                 }
             ]
         },
@@ -379,7 +407,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["whisper", "private", "message", "secret", "quiet", "hidden", "direct"]
                 },
                 {
                     "name": "!use",
@@ -391,7 +420,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["use", "item", "inventory", "consume", "activate", "utilize", "apply"]
                 },
                 {
                     "name": "!rules",
@@ -403,7 +433,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["rules", "guidelines", "regulations", "policy", "conduct", "behavior", "standards"]
                 },
                 {
                     "name": "!hug",
@@ -415,7 +446,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["hug", "embrace", "cuddle", "affection", "comfort", "warmth", "love"]
                 },
                 {
                     "name": "!d100",
@@ -427,7 +459,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["d100", "dice", "roll", "random", "number", "game", "rpg", "dnd"]
                 },
                 {
                     "name": "!remove item",
@@ -439,7 +472,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["remove", "item", "inventory", "delete", "take", "away"]
                 },
                 {
                     "name": "!add item",
@@ -451,7 +485,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["add", "item", "inventory", "give", "insert", "put"]
                 },
                 {
                     "name": "!items",
@@ -463,7 +498,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["items", "inventory", "list", "show", "display", "collection"]
                 },
                 {
                     "name": "!d8",
@@ -475,7 +511,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["d8", "dice", "roll", "random", "number", "game", "rpg", "dnd"]
                 },
                 {
                     "name": "!so",
@@ -487,7 +524,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["so", "shoutout", "shout", "out", "promote", "streamer", "support"]
                 },
                 {
                     "name": "!d12",
@@ -499,7 +537,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["d12", "dice", "roll", "random", "number", "game", "rpg", "dnd"]
                 },
                 {
                     "name": "!d4",
@@ -511,7 +550,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["d4", "dice", "roll", "random", "number", "game", "rpg", "dnd"]
                 },
                 {
                     "name": "!d10",
@@ -523,7 +563,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["d10", "dice", "roll", "random", "number", "game", "rpg", "dnd"]
                 },
                 {
                     "name": "!d6",
@@ -535,7 +576,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["d6", "dice", "roll", "random", "number", "game", "rpg", "dnd"]
                 }
             ]
         },
@@ -554,7 +596,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["d20", "dice", "roll", "random", "number", "game", "rpg", "dnd"]
                 }
             ]
         },
@@ -573,7 +616,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["hug", "embrace", "cuddle", "affection", "comfort", "warmth", "love", "extended"]
                 },
                 {
                     "name": "!hugLeaderboard",
@@ -585,7 +629,8 @@
                     ],
                     "userType": "all",
                     "globalCooldown": 0,
-                    "userCooldown": 0
+                    "userCooldown": 0,
+                    "tags": ["hug", "leaderboard", "rank", "top", "score", "points", "competition", "extended"]
                 }
             ]
         }

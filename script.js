@@ -49,16 +49,22 @@ fetch('commands.json')
                 li.className = 'command';
                 li.style.color = section.color;
 
+                // Create wrapper for title and badge
+                const titleWrapper = document.createElement('div');
+                titleWrapper.className = 'command-title-wrapper';
+
                 const mainSpan = document.createElement('span');
                 mainSpan.className = 'main';
                 mainSpan.textContent = cmd.main || cmd.name;
                 if (data.fonts) mainSpan.style.fontFamily = data.fonts.commandMain + ', monospace';
-                li.appendChild(mainSpan);
+                titleWrapper.appendChild(mainSpan);
 
                 const badgeSpan = document.createElement('span');
                 badgeSpan.className = 'badge ' + (cmd.userType || 'all');
                 badgeSpan.textContent = cmd.userType || 'all';
-                li.appendChild(badgeSpan);
+                titleWrapper.appendChild(badgeSpan);
+
+                li.appendChild(titleWrapper);
 
                 const cooldownsSpan = document.createElement('span');
                 cooldownsSpan.className = 'cooldowns';
@@ -123,7 +129,9 @@ function performSearch(query) {
     const results = {
         commands: [],
         triggers: [],
-        descriptions: []
+        descriptions: [],
+        tags: [],
+        userTypes: []
     };
 
     window.commandsData.sections.forEach(section => {
@@ -131,6 +139,8 @@ function performSearch(query) {
             const commandName = (cmd.main || cmd.name).toLowerCase();
             const description = (cmd.description || '').toLowerCase();
             const triggers = (cmd.triggers || []).map(t => t.toLowerCase());
+            const tags = (cmd.tags || []).map(t => t.toLowerCase());
+            const userType = (cmd.userType || 'all').toLowerCase();
 
             // Check command name
             if (commandName.includes(query)) {
@@ -157,10 +167,43 @@ function performSearch(query) {
                 }
             });
 
+            // Check tags
+            tags.forEach(tag => {
+                if (tag.includes(query) &&
+                    !results.commands.some(r => r.command === (cmd.main || cmd.name)) &&
+                    !results.triggers.some(r => r.command === (cmd.main || cmd.name))) {
+                    results.tags.push({
+                        command: cmd.main || cmd.name,
+                        tag: tag,
+                        section: section.name,
+                        sectionColor: section.color,
+                        description: cmd.description,
+                        type: 'tag'
+                    });
+                }
+            });
+
+            // Check user type
+            if (userType.includes(query) &&
+                !results.commands.some(r => r.command === (cmd.main || cmd.name)) &&
+                !results.triggers.some(r => r.command === (cmd.main || cmd.name)) &&
+                !results.tags.some(r => r.command === (cmd.main || cmd.name))) {
+                results.userTypes.push({
+                    command: cmd.main || cmd.name,
+                    userType: cmd.userType || 'all',
+                    section: section.name,
+                    sectionColor: section.color,
+                    description: cmd.description,
+                    type: 'userType'
+                });
+            }
+
             // Check description
             if (description.includes(query) &&
                 !results.commands.some(r => r.command === (cmd.main || cmd.name)) &&
-                !results.triggers.some(r => r.command === (cmd.main || cmd.name))) {
+                !results.triggers.some(r => r.command === (cmd.main || cmd.name)) &&
+                !results.tags.some(r => r.command === (cmd.main || cmd.name)) &&
+                !results.userTypes.some(r => r.command === (cmd.main || cmd.name))) {
                 results.descriptions.push({
                     command: cmd.main || cmd.name,
                     section: section.name,
@@ -179,7 +222,7 @@ function displaySearchResults(results, query) {
     const searchResults = document.getElementById('search-results');
     searchResults.innerHTML = '';
 
-    const allResults = [...results.commands, ...results.triggers, ...results.descriptions];
+    const allResults = [...results.commands, ...results.triggers, ...results.tags, ...results.userTypes, ...results.descriptions];
 
     if (allResults.length === 0) {
         const noResults = document.createElement('div');
@@ -201,6 +244,20 @@ function displaySearchResults(results, query) {
                 triggerSpan.className = 'search-result-trigger';
                 triggerSpan.textContent = 'Trigger: ' + result.trigger;
                 resultItem.appendChild(triggerSpan);
+            }
+
+            if (result.type === 'tag') {
+                const tagSpan = document.createElement('div');
+                tagSpan.className = 'search-result-tag';
+                tagSpan.textContent = 'Tag: ' + result.tag;
+                resultItem.appendChild(tagSpan);
+            }
+
+            if (result.type === 'userType') {
+                const userTypeSpan = document.createElement('div');
+                userTypeSpan.className = 'search-result-usertype';
+                userTypeSpan.textContent = 'User Type: ' + result.userType;
+                resultItem.appendChild(userTypeSpan);
             }
 
             const descSpan = document.createElement('div');
