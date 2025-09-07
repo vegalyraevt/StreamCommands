@@ -379,3 +379,133 @@ body {
     font-size: 0.8em;
     font-family: 'FutureLight', monospace;
 }
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.social-btn {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #00ff00;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    background: transparent;
+}
+
+.social-btn:hover {
+    border-color: #00ffff;
+    box-shadow: 
+        0 0 10px #00ff00,
+        0 0 20px #00ff00,
+        inset 0 0 10px rgba(0, 255, 0, 0.1);
+    transform: scale(1.1) rotate(5deg);
+}
+
+.social-btn:active {
+    transform: scale(0.95) rotate(5deg);
+}
+
+.social-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #00ff00;
+    transition: color 0.3s ease;
+}
+
+.social-btn:hover .social-icon {
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+}
+
+/* Individual platform colors */
+.social-btn:nth-child(1):hover { /* Twitch */
+    border-color: #9146ff;
+    box-shadow: 0 0 10px #9146ff, 0 0 20px #9146ff;
+}
+.social-btn:nth-child(1):hover .social-icon {
+    color: #9146ff;
+    text-shadow: 0 0 10px #9146ff;
+}
+
+.social-btn:nth-child(2):hover { /* Twitter */
+    border-color: #1da1f2;
+    box-shadow: 0 0 10px #1da1f2, 0 0 20px #1da1f2;
+}
+.social-btn:nth-child(2):hover .social-icon {
+    color: #1da1f2;
+    text-shadow: 0 0 10px #1da1f2;
+}
+
+.social-btn:nth-child(3):hover { /* Discord */
+    border-color: #5865f2;
+    box-shadow: 0 0 10px #5865f2, 0 0 20px #5865f2;
+}
+.social-btn:nth-child(3):hover .social-icon {
+    color: #5865f2;
+    text-shadow: 0 0 10px #5865f2;
+}
+
+.social-btn:nth-child(4):hover { /* YouTube */
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+}
+.social-btn:nth-child(4):hover .social-icon {
+    color: #ff0000;
+    text-shadow: 0 0 10px #ff0000;
+}
+
+.social-btn:nth-child(5):hover { /* Ko-fi */
+    border-color: #ff5f5f;
+    box-shadow: 0 0 10px #ff5f5f, 0 0 20px #ff5f5f;
+}
+.social-btn:nth-child(5):hover .social-icon {
+    color: #ff5f5f;
+    text-shadow: 0 0 10px #ff5f5f;
+}
+
+.social-btn:nth-child(6):hover { /* SoundCloud */
+    border-color: #ff7700;
+    box-shadow: 0 0 10px #ff7700, 0 0 20px #ff7700;
+}
+.social-btn:nth-child(6):hover .social-icon {
+    color: #ff7700;
+    text-shadow: 0 0 10px #ff7700;
+}
+
+.social-btn:nth-child(7):hover { /* Throne */
+    border-color: #ffd700;
+    box-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700;
+}
+.social-btn:nth-child(7):hover .social-icon {
+    color: #ffd700;
+    text-shadow: 0 0 10px #ffd700;
+}
+
+.social-btn:nth-child(8):hover { /* TikTok */
+    border-color: #000000;
+    box-shadow: 0 0 10px #ff0050, 0 0 20px #ff0050;
+}
+.social-btn:nth-child(8):hover .social-icon {
+    color: #ff0050;
+    text-shadow: 0 0 10px #ff0050;
+}
+
+.social-btn:nth-child(9):hover { /* Personal Site */
+    border-color: #8a2be2;
+    box-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2;
+}
+.social-btn:nth-child(9):hover .social-icon {
+    color: #8a2be2;
+    text-shadow: 0 0 10px #8a2be2;
+}
