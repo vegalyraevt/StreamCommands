@@ -42,20 +42,79 @@ body {
     width: 100%;
     height: 100%;
     background: 
-        radial-gradient(2px 2px at 20px 30px, #eee, transparent),
-        radial-gradient(2px 2px at 40px 70px, #fff, transparent),
-        radial-gradient(1px 1px at 90px 40px, #eee, transparent),
-        radial-gradient(1px 1px at 130px 80px, #fff, transparent),
-        radial-gradient(2px 2px at 160px 30px, #eee, transparent);
+        radial-gradient(2px 2px at 20px 30px, #fff, transparent),
+        radial-gradient(1px 1px at 40px 70px, #eee, transparent),
+        radial-gradient(2px 2px at 90px 40px, #fff, transparent),
+        radial-gradient(1px 1px at 130px 80px, #ddd, transparent),
+        radial-gradient(1px 1px at 160px 30px, #fff, transparent),
+        radial-gradient(1px 1px at 200px 80px, #eee, transparent),
+        radial-gradient(2px 2px at 250px 50px, #fff, transparent),
+        radial-gradient(1px 1px at 300px 90px, #ddd, transparent);
     background-repeat: repeat;
-    background-size: 200px 100px;
+    background-size: 400px 200px;
     z-index: -1;
-    animation: twinkle 4s ease-in-out infinite alternate;
+    animation: twinkle 8s ease-in-out infinite alternate, drift 20s linear infinite;
 }
 
 @keyframes twinkle {
-    0% { opacity: 0.5; }
-    100% { opacity: 1; }
+    0% { opacity: 0.3; }
+    50% { opacity: 1; }
+    100% { opacity: 0.3; }
+}
+
+@keyframes drift {
+    0% { transform: translateX(0) translateY(0); }
+    100% { transform: translateX(-50px) translateY(-30px); }
+}
+
+/* Flying debris and satellites */
+.debris {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.debris::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: #00ff00;
+    border-radius: 50%;
+    animation: fly 15s linear infinite;
+    animation-delay: 2s;
+}
+
+.debris::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background: #ff00ff;
+    border-radius: 50%;
+    animation: fly 25s linear infinite;
+    animation-delay: 8s;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateX(-10px) translateY(100vh) rotate(0deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(calc(100vw + 10px)) translateY(-10px) rotate(360deg);
+        opacity: 0;
+    }
 }
 
 .terminal {
@@ -63,11 +122,46 @@ body {
     margin: 50px auto;
     width: 80%;
     max-width: 1200px;
-    background: rgba(0,0,0,0.9);
+    background: rgba(0,0,0,0.95);
     border: 2px solid #00ff00;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 0 20px #00ff00, inset 0 0 20px rgba(0,255,0,0.1);
+    box-shadow: 
+        0 0 20px #00ff00,
+        inset 0 0 20px rgba(0,255,0,0.1),
+        0 0 40px rgba(0,255,0,0.2);
+    animation: glitch 8s ease-in-out infinite;
+}
+
+@keyframes glitch {
+    0%, 100% { 
+        border-color: #00ff00;
+        box-shadow: 
+            0 0 20px #00ff00,
+            inset 0 0 20px rgba(0,255,0,0.1),
+            0 0 40px rgba(0,255,0,0.2);
+    }
+    2% { 
+        border-color: #ff00ff;
+        box-shadow: 
+            0 0 20px #ff00ff,
+            inset 0 0 20px rgba(255,0,255,0.1),
+            0 0 40px rgba(255,0,255,0.2);
+    }
+    4% { 
+        border-color: #00ffff;
+        box-shadow: 
+            0 0 20px #00ffff,
+            inset 0 0 20px rgba(0,255,255,0.1),
+            0 0 40px rgba(0,255,255,0.2);
+    }
+    6% { 
+        border-color: #ffff00;
+        box-shadow: 
+            0 0 20px #ffff00,
+            inset 0 0 20px rgba(255,255,0,0.1),
+            0 0 40px rgba(255,255,0,0.2);
+    }
 }
 
 .header {
@@ -82,9 +176,39 @@ body {
 }
 
 .header h1 {
-    color: #00ff00;
-    text-shadow: 0 0 10px #00ff00;
+    color: #ffffff;
+    text-shadow: 
+        0 0 5px #00ff00,
+        0 0 10px #00ff00,
+        0 0 15px #00ff00,
+        0 0 20px #00ff00,
+        0 0 35px #00ff00;
     font-family: 'AstropolisAcademy', monospace;
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(45deg, #00ff00, #00ffff, #ff00ff, #ffff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: titleGlow 3s ease-in-out infinite alternate;
+}
+
+@keyframes titleGlow {
+    0% { 
+        text-shadow: 
+            0 0 5px #00ff00,
+            0 0 10px #00ff00,
+            0 0 15px #00ff00;
+    }
+    100% { 
+        text-shadow: 
+            0 0 5px #00ff00,
+            0 0 10px #00ff00,
+            0 0 15px #00ff00,
+            0 0 20px #00ff00,
+            0 0 35px #00ff00;
+    }
 }
 
 .blurb {
@@ -99,18 +223,29 @@ body {
 
 .command {
     margin: 10px 0;
-    padding: 10px;
-    background: rgba(0,255,0,0.1);
-    border-radius: 5px;
+    padding: 15px;
+    background: rgba(0,0,0,0.8);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.command:hover {
+    background: rgba(0,0,0,0.9);
+    border-color: rgba(255,255,255,0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
 .command .main {
     font-weight: bold;
     font-size: 1.2em;
     font-family: 'HoloJacket', monospace;
+    color: #ffffff;
+    text-shadow: 0 0 3px currentColor;
 }
 
 .command .badge {
@@ -121,30 +256,68 @@ body {
     text-transform: uppercase;
 }
 
-.badge.all { background: #00ff00; color: black; }
-.badge.mod { background: #ff0000; color: white; }
-.badge.sub { background: #0000ff; color: white; }
-.badge.group { background: #ffff00; color: black; }
-.badge.specific { background: #ff00ff; color: white; }
+.badge.all { 
+    background: rgba(0,255,0,0.2); 
+    color: #00ff00; 
+    border: 1px solid #00ff00;
+}
+.badge.mod { 
+    background: rgba(255,0,0,0.2); 
+    color: #ff0000; 
+    border: 1px solid #ff0000;
+}
+.badge.sub { 
+    background: rgba(0,0,255,0.2); 
+    color: #0080ff; 
+    border: 1px solid #0080ff;
+}
+.badge.group { 
+    background: rgba(255,255,0,0.2); 
+    color: #ffff00; 
+    border: 1px solid #ffff00;
+}
+.badge.specific { 
+    background: rgba(255,0,255,0.2); 
+    color: #ff00ff; 
+    border: 1px solid #ff00ff;
+}
 
 .command .cooldowns {
     font-size: 0.9em;
-    color: #aaa;
+    color: #cccccc;
+    font-family: 'PixelSpaceFree', monospace;
 }
 
 .command .alternates {
     font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.command .alternates summary {
+    cursor: pointer;
+    color: #00ff00;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .command .alternates ul {
     margin: 5px 0;
     padding-left: 20px;
+    list-style: none;
 }
 
 .command .alternates li {
-    list-style: none;
     display: inline;
-    margin-right: 10px;
+    margin-right: 15px;
+    color: #cccccc;
+    font-family: 'PixelSpaceFree', monospace;
+}
+
+.command p {
+    margin: 8px 0 0 0;
+    color: #e0e0e0;
+    line-height: 1.4;
+    font-family: 'PixelSpaceFree', monospace;
 }
 
 .section {
@@ -152,10 +325,31 @@ body {
 }
 
 .section h2 {
-    color: #00ff00;
-    border-bottom: 1px solid #00ff00;
+    color: #ffffff;
+    border-bottom: 2px solid currentColor;
     padding-bottom: 5px;
-    text-shadow: 0 0 5px #00ff00;
+    text-shadow: 0 0 5px currentColor;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+
+.section:nth-child(2) {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(255, 0, 255, 0.3);
+    position: relative;
+}
+
+.section:nth-child(2)::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ff00ff, transparent);
+    box-shadow: 0 0 10px #ff00ff;
 }
 
 .section img {
