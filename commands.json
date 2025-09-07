@@ -1,0 +1,591 @@
+{
+    "fonts": {
+        "title": "AstropolisAcademy",
+        "footer": "FutureLight",
+        "commandMain": "HoloJacket",
+        "description": "PixelSpaceFree"
+    },
+    "sections": [
+        {
+            "name": "General Commands",
+            "color": "#00ff00",
+            "commands": [
+                {
+                    "name": "!socials",
+                    "description": "!socials",
+                    "enabled": true,
+                    "main": "!socials",
+                    "triggers": [
+                        "!socials"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!Duration",
+                    "description": "!Duration",
+                    "enabled": true,
+                    "main": "!Duration",
+                    "triggers": [
+                        "!Duration"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!dropkick",
+                    "description": "!dropkick",
+                    "enabled": true,
+                    "main": "!dropkick",
+                    "triggers": [
+                        "!dropkick"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!bite",
+                    "description": "!bite",
+                    "enabled": true,
+                    "main": "!bite",
+                    "triggers": [
+                        "!bite"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!smp",
+                    "description": "!smp",
+                    "enabled": true,
+                    "main": "!smp",
+                    "triggers": [
+                        "!smp"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!clip",
+                    "description": "!clip",
+                    "enabled": true,
+                    "main": "!clip",
+                    "triggers": [
+                        "!clip"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!sto",
+                    "description": "!Shop",
+                    "enabled": true,
+                    "main": "!sto",
+                    "triggers": [
+                        "!sto"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!quoInf",
+                    "description": "!quoteInfo",
+                    "enabled": true,
+                    "main": "!quoInf",
+                    "triggers": [
+                        "!quoInf"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!so",
+                    "description": "!so",
+                    "enabled": true,
+                    "main": "!so",
+                    "triggers": [
+                        "!so"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!aso",
+                    "description": "aso",
+                    "enabled": true,
+                    "main": "!aso",
+                    "triggers": [
+                        "!aso"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!ShockType",
+                    "description": "!Shock_Type",
+                    "enabled": true,
+                    "main": "!ShockType",
+                    "triggers": [
+                        "!ShockType"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!discord",
+                    "description": "!discord",
+                    "enabled": true,
+                    "main": "!discord",
+                    "triggers": [
+                        "!discord"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!farm",
+                    "description": "Rustys",
+                    "enabled": true,
+                    "main": "!farm",
+                    "triggers": [
+                        "!farm"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!sets",
+                    "description": "!sets",
+                    "enabled": true,
+                    "main": "!sets",
+                    "triggers": [
+                        "!sets"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!setpro",
+                    "description": "!setpro",
+                    "enabled": true,
+                    "main": "!setpro",
+                    "triggers": [
+                        "!setpro"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!int",
+                    "description": "!int",
+                    "enabled": true,
+                    "main": "!int",
+                    "triggers": [
+                        "!int"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!love",
+                    "description": "!love",
+                    "enabled": true,
+                    "main": "!love",
+                    "triggers": [
+                        "!love"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!donate",
+                    "description": "!donate",
+                    "enabled": true,
+                    "main": "!donate",
+                    "triggers": [
+                        "!donate"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!ai",
+                    "description": "!ai",
+                    "enabled": true,
+                    "main": "!ai",
+                    "triggers": [
+                        "!ai"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!game",
+                    "description": "!game",
+                    "enabled": true,
+                    "main": "!game",
+                    "triggers": [
+                        "!game"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!collab",
+                    "description": "!Collab",
+                    "enabled": true,
+                    "main": "!collab",
+                    "triggers": [
+                        "!collab"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!raid",
+                    "description": "!raid",
+                    "enabled": true,
+                    "main": "!raid",
+                    "triggers": [
+                        "!raid"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!job",
+                    "description": "!job",
+                    "enabled": true,
+                    "main": "!job",
+                    "triggers": [
+                        "!job"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!Intensity",
+                    "description": "!Intensity",
+                    "enabled": true,
+                    "main": "!Intensity",
+                    "triggers": [
+                        "!Intensity"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!unraid",
+                    "description": "!unraid",
+                    "enabled": true,
+                    "main": "!unraid",
+                    "triggers": [
+                        "!unraid"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!code",
+                    "description": "!code",
+                    "enabled": true,
+                    "main": "!code",
+                    "triggers": [
+                        "!code"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!urban",
+                    "description": "!urban",
+                    "enabled": true,
+                    "main": "!urban",
+                    "triggers": [
+                        "!urban"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                }
+            ]
+        },
+        {
+            "name": "Aurora Commands",
+            "color": "#ff00ff",
+            "logo": "Assets/AuroraLOGO.png",
+            "pfp": "Assets/AuroraPFP.jpg",
+            "commands": []
+        },
+        {
+            "name": "Holiday Commands",
+            "color": "#ffff00",
+            "dropdown": true,
+            "commands": [
+                {
+                    "name": "!Red",
+                    "description": "Chinese New Year Red Env",
+                    "enabled": true,
+                    "main": "!Red",
+                    "triggers": [
+                        "!Red"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                }
+            ]
+        },
+        {
+            "name": "Disabled Commands",
+            "color": "#888888",
+            "dropdown": true,
+            "commands": [
+                {
+                    "name": "!whisper",
+                    "description": "!whisper",
+                    "enabled": false,
+                    "main": "!whisper",
+                    "triggers": [
+                        "!whisper"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!use",
+                    "description": "Use Item",
+                    "enabled": false,
+                    "main": "!use",
+                    "triggers": [
+                        "!use"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!rules",
+                    "description": "!rules",
+                    "enabled": false,
+                    "main": "!rules",
+                    "triggers": [
+                        "!rules"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!hug",
+                    "description": "!hug",
+                    "enabled": false,
+                    "main": "!hug",
+                    "triggers": [
+                        "!hug"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!d100",
+                    "description": "d11",
+                    "enabled": false,
+                    "main": "!d100",
+                    "triggers": [
+                        "!d100"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!remove item",
+                    "description": "Remove Item",
+                    "enabled": false,
+                    "main": "!remove item",
+                    "triggers": [
+                        "!remove item"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!add item",
+                    "description": "Add Item",
+                    "enabled": false,
+                    "main": "!add item",
+                    "triggers": [
+                        "!add item"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!items",
+                    "description": "Get Items",
+                    "enabled": false,
+                    "main": "!items",
+                    "triggers": [
+                        "!items"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!d8",
+                    "description": "d8",
+                    "enabled": false,
+                    "main": "!d8",
+                    "triggers": [
+                        "!d8"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!so",
+                    "description": "!so",
+                    "enabled": false,
+                    "main": "!so",
+                    "triggers": [
+                        "!so"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!d12",
+                    "description": "d12",
+                    "enabled": false,
+                    "main": "!d12",
+                    "triggers": [
+                        "!d12"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!d4",
+                    "description": "d4",
+                    "enabled": false,
+                    "main": "!d4",
+                    "triggers": [
+                        "!d4"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!d10",
+                    "description": "d10",
+                    "enabled": false,
+                    "main": "!d10",
+                    "triggers": [
+                        "!d10"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!d6",
+                    "description": "!d6",
+                    "enabled": false,
+                    "main": "!d6",
+                    "triggers": [
+                        "!d6"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                }
+            ]
+        },
+        {
+            "name": "dice Commands",
+            "color": "#00ff00",
+            "dropdown": false,
+            "commands": [
+                {
+                    "name": "!d20",
+                    "description": "d20",
+                    "enabled": true,
+                    "main": "!d20",
+                    "triggers": [
+                        "!d20"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                }
+            ]
+        },
+        {
+            "name": "Extended Hugs Commands",
+            "color": "#00ff00",
+            "dropdown": false,
+            "commands": [
+                {
+                    "name": "!hug",
+                    "description": "[Extended Hugs] Hug",
+                    "enabled": true,
+                    "main": "!hug",
+                    "triggers": [
+                        "!hug"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                },
+                {
+                    "name": "!hugLeaderboard",
+                    "description": "[Extended Hugs] Leaderboard",
+                    "enabled": true,
+                    "main": "!hugLeaderboard",
+                    "triggers": [
+                        "!hugLeaderboard"
+                    ],
+                    "userType": "all",
+                    "globalCooldown": 0,
+                    "userCooldown": 0
+                }
+            ]
+        }
+    ]
+}
